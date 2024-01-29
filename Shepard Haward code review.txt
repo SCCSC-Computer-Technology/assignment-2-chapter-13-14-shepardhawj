@@ -1,0 +1,9 @@
+Shepard Haward
+
+Assignment-2-chapter-13-14
+
+For the buttons when looking at the code I am a little confused what button is doing what because the names are so generic. The button names themselves are fine, but make sure to put comment in the code to clarify what each button and action is for. You have comments in the methods, but not in the buttons code themselves. There is also lines of “dead code” from lines 217-279, make sure to clean out your code of all parts that you are not actually using in the program.
+
+When running the program, I am unable to see the table in the data grid view or the corresponding search and clear buttons that go with it. I am unsure if this is a problem on my end or a problem with the program. Because of this I cannot see the table to know what products I want to search for or use its corresponding buttons. 
+ 
+When I search for a product within a price range, sometimes a product with a higher range than the one I entered appears into the list box. Make sure that whatever the max range is, sets the range of prices that are being shown into the list box. I believe its btnSearch_3 where this problem occurs. Since you are pulling each method once the user enters information it automatically runs the methos for lesser than or greater than values, but it is not within those sets of range values.
